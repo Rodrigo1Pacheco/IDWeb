@@ -1,0 +1,67 @@
+<!-- author.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre el Autor</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navegación lateral -->
+  <ul class="navbar">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="author.html" class="active">Autor</a></li>
+    <li><a href="system.html">Ing. Sistemas</a></li>
+    <li><a href="w3c.html">Estándar W3C</a></li>
+    <li><a href="contact.html">Contacto</a></li>
+  </ul>
+
+  <!-- Contenido principal -->
+  <main>
+    <h1>Sobre el Autor</h1>
+    <p>Hola, me llamo Carlos Mendoza y soy estudiante de Ingeniería de Sistemas. Me apasiona el desarrollo web, el diseño de software y la resolución de problemas a través de la tecnología.</p>
+
+    <!-- Elemento multimedia obligatorio -->
+    <figure>
+      <img src="img/photo.png" alt="Fotografía del alumno Carlos Mendoza en su área de estudio" width="160" height="160">
+      <figcaption>Fotografía personal del autor.</figcaption>
+    </figure>
+
+    <!-- Tabla con cabeceras, cuerpo y atributos de accesibilidad -->
+    <h2>Proyectos Académicos Realizados</h2>
+    <table>
+      <caption>Listado de proyectos universitarios destacados durante la carrera</caption>
+      <thead>
+        <tr>
+          <th scope="col">Proyecto</th>
+          <th scope="col">Curso</th>
+          <th scope="col">Año</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sistema de Gestión Escolar</td>
+          <td>Base de Datos</td>
+          <td>2025</td>
+        </tr>
+        <tr>
+          <td>Aplicación Móvil de Tareas</td>
+          <td>Desarrollo Móvil</td>
+          <td>2026</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Pie de página -->
+    <footer>
+      <address>
+        Contacto: <a href="mailto:alumno@universidad.edu">alumno@universidad.edu</a><br>
+        © 2026 Carlos Mendoza. Todos los derechos reservados.
+      </address>
+    </footer>
+  </main>
+
+</body>
+</html>
